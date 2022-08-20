@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vector模板编写.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="砖石继承问题.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="函数调用符重载.cpp">
+    <ClCompile Include="传递参数详解.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
