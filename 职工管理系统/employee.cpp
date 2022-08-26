@@ -13,6 +13,6 @@ string employee::getDeptName()
 }
 void employee::showInfo() 
 {
-	cout << "员工编号：" << m_Id<<  "\t员工姓名：" << m_Name << "\t岗位：" << this->getDeptName()<<"\t岗位职责：完成经理交给的任务" << endl;
+	cout << "职工编号：" << m_Id<<  "\t员工姓名：" << m_Name << "\t岗位：" << this->getDeptName()<<"\t岗位职责：完成经理交给的任务" << endl;
 
 }

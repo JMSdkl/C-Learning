@@ -5,7 +5,7 @@
 #include"BOSS.h"
 #include"Manager.h"
 #include<fstream>
-#define FILENAME "wmpFile.txt"
+#define FILENAME "wmpFile1.txt"
 
 using namespace std;
 class workerManager
@@ -22,5 +22,24 @@ public:
 	void AddEmp();
 	void save();
 	~workerManager();
+	//判断文件是否为空的标志
+	bool m_FileIsEmpty;
+	int get_EmpNum();
+	//初始化员工
+	void init_Emp();
+	//显示职工
+	void Show_Emp();
+	//判断职工是否存在的函数  如果存在就返回所在数组中的位置 不在就返回-1
+	int IsExit(int id);
+	//删除职工
+	void Del_Emp();
+	//修改职工
+	void Mod_Emp();
+	//查找员工
+	void Find_Emp();
+	//职工编号排序
+	void Sort_Emp();
+	//清空文件
+	void Clean_File();
 };
 

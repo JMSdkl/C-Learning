@@ -37,16 +37,22 @@ int main()
             wk.AddEmp();
             break;
         case 2:
+            wk.Show_Emp();
             break;
         case 3:
+            wk.Del_Emp();
             break;
         case 4:
+            wk.Mod_Emp();
             break;
         case 5:
+            wk.Find_Emp();
             break;
         case 6:
+            wk.Sort_Emp();
             break;
         case 7:
+            wk.Clean_File();
             break;
         default:
             system("cls");
