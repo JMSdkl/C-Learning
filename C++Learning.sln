@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多线程", "多线程\多�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "传递参数详解", "传递参数详解\传递参数详解.vcxproj", "{D7F5340B-F325-4863-B053-1B47B725E61A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "模板学习", "模板学习\模板学习.vcxproj", "{CD69ACAE-6300-47CC-BFB6-C645E27F3699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -125,6 +127,18 @@ Global
 		{D7F5340B-F325-4863-B053-1B47B725E61A}.Release|x64.Build.0 = Release|x64
 		{D7F5340B-F325-4863-B053-1B47B725E61A}.Release|x86.ActiveCfg = Release|Win32
 		{D7F5340B-F325-4863-B053-1B47B725E61A}.Release|x86.Build.0 = Release|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|Win32.Build.0 = Debug|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|x64.ActiveCfg = Debug|x64
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|x64.Build.0 = Debug|x64
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Debug|x86.Build.0 = Debug|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|Win32.ActiveCfg = Release|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|Win32.Build.0 = Release|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|x64.ActiveCfg = Release|x64
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|x64.Build.0 = Release|x64
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|x86.ActiveCfg = Release|Win32
+		{CD69ACAE-6300-47CC-BFB6-C645E27F3699}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
