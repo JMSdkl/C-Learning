@@ -125,7 +125,7 @@ void workerManager::AddEmp()
 					cout << "输入了重复的id号" << endl;
 					cout<<"请重新输入第"<< i + 1 << "个新职工编号" << endl;
 					cin >> id;
-					break; 
+					break;                              //防止误输入
 				}
 			}
 			cout << "请输入第" << i + 1 << "个新职工姓名" << endl;
@@ -456,14 +456,14 @@ void workerManager::Sort_Emp()
 			//cout <<"头：" << minOrmax << endl;
 			for (int j = i + 1; j < this->m_EmpNum; j++) 
 			{
-			if (select == 1)//升序
+			if (select == 1)//
 			{
 				if (this->m_EmpArray[minOrmax]->m_Id > this->m_EmpArray[j]->m_Id) 
 				{
 					minOrmax = j;
 				}
 			}
-			else//降序
+			else//
 			{
 				if (this->m_EmpArray[minOrmax]->m_Id < this->m_EmpArray[j]->m_Id)
 				{

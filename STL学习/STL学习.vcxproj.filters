@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyArray.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="myArray.cpp">
+    <ClCompile Include="..\模板学习\容器初识.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
