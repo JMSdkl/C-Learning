@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "模板学习", "模板学�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL学习", "STL学习\STL学习.vcxproj", "{1CEF8F9E-4BDD-46E1-BAE9-0B78FCD83948}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List容器", "List容器\List容器.vcxproj", "{25783033-CC57-47E2-A4A7-9BA173BF344E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -153,6 +155,18 @@ Global
 		{1CEF8F9E-4BDD-46E1-BAE9-0B78FCD83948}.Release|x64.Build.0 = Release|x64
 		{1CEF8F9E-4BDD-46E1-BAE9-0B78FCD83948}.Release|x86.ActiveCfg = Release|Win32
 		{1CEF8F9E-4BDD-46E1-BAE9-0B78FCD83948}.Release|x86.Build.0 = Release|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|Win32.Build.0 = Debug|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|x64.ActiveCfg = Debug|x64
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|x64.Build.0 = Debug|x64
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|x86.ActiveCfg = Debug|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Debug|x86.Build.0 = Debug|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|Win32.ActiveCfg = Release|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|Win32.Build.0 = Release|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|x64.ActiveCfg = Release|x64
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|x64.Build.0 = Release|x64
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|x86.ActiveCfg = Release|Win32
+		{25783033-CC57-47E2-A4A7-9BA173BF344E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
