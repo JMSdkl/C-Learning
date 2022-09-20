@@ -30,7 +30,7 @@ public:
 		return v1 > v2;//前面的数大于后面的数、降序
 	}
 
-	bool operator()(const Person &p1 ,const Person &p2) const
+	bool operator()(const Person &p1 ,const Person &p2) const//最好用引用，消耗内存少
 	{
 		if (p1.m_Age == p2.m_Age) 
 		{
