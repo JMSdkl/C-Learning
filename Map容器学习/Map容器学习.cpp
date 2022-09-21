@@ -118,7 +118,7 @@ void test04()
     }
     //统计
     int num=m.count(3);
-    cout << "num:" << num << endl;//要不为1要不为0
+    cout << "num:" << num << endl;//要不为1要不为0 multimap会大于1
 
 }
 
