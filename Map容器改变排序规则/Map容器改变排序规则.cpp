@@ -20,7 +20,7 @@ public:
 };
 
 
-class myCompare //是比较key的吧？还是比较value，如果是比较value，那改怎么写？
+class myCompare //是比较key的吧？还是比较value，如果是比较value，那改怎么写？用vector包含起来写
 {
 public:
     bool operator()( int v1 , int v2) const

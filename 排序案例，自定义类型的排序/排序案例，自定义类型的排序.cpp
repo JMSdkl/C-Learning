@@ -67,7 +67,7 @@ void test01()
     //排序
     cout << "*****************************" << endl;
     cout << "排序后：" << endl;
-    L1.sort(comparePerson);
+    L1.sort(comparePerson);//放入的是函数的地址
     myListprint(L1);
 }
 

@@ -37,12 +37,39 @@ void test01()
 
 }
 
+class mycompare 
+{
+public:
+    bool operator()(int v1,int v2) 
+    {
+        return v2 < v1;
+    }
+};
+
 //二元谓词
+void test02() 
+{
+    vector<int>v;
+    v.push_back(10);
+    v.push_back(40);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(50);
+    mycompare my;  //_pred 传函数对象 
+
+    sort(v.begin(), v.end(), mycompare());//降序
+    sort(v.begin(),v.end());//升序
+    for (vector<int>::iterator it = v.begin(); it != v.end(); it++) 
+    {
+        cout << *it << " ";
+    }
+    cout << endl;
+}
 
 
 int main()
 {
-    test01();
+    test02();
     std::cout << "Hello World!\n";
 }
 
